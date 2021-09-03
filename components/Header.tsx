@@ -9,8 +9,8 @@ export const Header = () => {
         position: sticky;
         top: 0;
         z-index: var(--header-z);
-        border-bottom: var(--border-white);
-        background-color: var(--white);
+        border-bottom: var(--border-black);
+        background-color: var(--black);
       `}>
         <NavLink passHref href="/">
           <a>Auctions</a>
