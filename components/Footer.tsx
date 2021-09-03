@@ -4,13 +4,12 @@ export const Footer = () => {
   return (
     <footer css={css`
       height: var(--footer-height);
-      border-top: var(--border-black);
+      border-top: var(--border-white);
       a {
         text-decoration: none;
       }
     `}>
-      <a target="_blank" href="https://zora.co" className="zora-branding">☼☽</a>
-      <a target="_blank" href="https://docs.zora.co">Powered by Zora</a>
+      <a target="_blank" href="https://docs.zora.co">Powered by Gear, Inc.</a>
     </footer>
   )
 }
