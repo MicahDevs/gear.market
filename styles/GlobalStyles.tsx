@@ -8,12 +8,12 @@ export default function GlobalStyles() {
       styles={css`
         :root {
           /* COLORS */
-          --black: #000;
-          --white: #fff;
-          --bg-color: #f6f8fa;
+          --black: #fff;
+          --white: #1a1b1f;
+          --bg-color: #1a1b1f;
           --overlay: rgba(0, 0, 0, 0.85);
           --overlay-light: rgba(0, 0, 0, 0.35);
-          --border-black: 1px solid var(--black);
+          --border-black: 1px solid var(--1a1b1f);
           --border-light: 1px solid #dbdbdb;
 
           /* FONTS */
