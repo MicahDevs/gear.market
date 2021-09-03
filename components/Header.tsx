@@ -10,7 +10,7 @@ export const Header = () => {
         top: 0;
         z-index: var(--header-z);
         border-bottom: var(--border-#1a1b1f);
-        background-color: var(--#1a1b1f);
+        background-color: var(--grey);
       `}>
         <NavLink passHref href="/">
           <a>Auctions</a>
