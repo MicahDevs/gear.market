@@ -8,8 +8,8 @@ export default function GlobalStyles() {
       styles={css`
         :root {
           /* COLORS */
-          --black: #fff;
-          --white: #1a1b1f;
+          --black: #1a1b1f;
+          --white: #fff;
           --bg-color: #1a1b1f;
           --overlay: rgba(0, 0, 0, 0.85);
           --overlay-light: rgba(0, 0, 0, 0.35);
