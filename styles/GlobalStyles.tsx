@@ -80,7 +80,7 @@ export default function GlobalStyles() {
           padding: 0 var(--space-md);
           a {
             text-decoration: none;
-            color: var(--white);
+            color: var(--black);
             &.active {
               text-decoration: underline;
             }
