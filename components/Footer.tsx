@@ -9,7 +9,7 @@ export const Footer = () => {
         text-decoration: none;
       }
     `}>
-      <a target="_blank" href="https://docs.zora.co">Powered by Gear, Inc.</a>
+      <a target="_blank" href="https://gearforpunks.com">Get your Gear on.</a>
     </footer>
   )
 }
