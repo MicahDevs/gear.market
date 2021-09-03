@@ -10,7 +10,6 @@ export const Footer = () => {
         text-decoration: none;
       }
     `}>
-      <a target="_blank" href="https://gearforpunks.com">Gear up.</a>
     </footer>
   )
 }
