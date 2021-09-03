@@ -4,8 +4,8 @@ export const Footer = () => {
   return (
     <footer css={css`
       height: var(--footer-height);
-      border-top: var(--border-white);
-      background-color: var(--white);
+      border-top: var(--border-black);
+      background-color: var(--black);
       a {
         text-decoration: none;
       }
