@@ -8,16 +8,16 @@ export default function GlobalStyles() {
       styles={css`
         :root {
           /* COLORS */
-          --black: #1a1b1f;
-          --white: #fff;
-          --bg-color: #1a1b1f;
-          --overlay: rgba(0, 0, 0, 0.85);
-          --overlay-light: rgba(0, 0, 0, 0.35);
+          --black: white;
+          --white: black;
+          --bg-color: white;
+          --overlay: rgba(255, 255, 255, 0.85);
+          --overlay-light: rgba(255, 255, 255, 0.35);
           --border-black: 1px solid var(--1a1b1f);
           --border-light: 1px solid #1a1b1f;
 
           /* FONTS */
-          --font-a: Helvetica, Arial, sans-serif;
+          --font-a: Montserrat, Arial, sans-serif;
           --font-b: Courier, monospace;
           
           /* SPACING */
@@ -80,7 +80,7 @@ export default function GlobalStyles() {
           padding: 0 var(--space-md);
           a {
             text-decoration: none;
-            color: var(--black);
+            color: var(--white);
             &.active {
               text-decoration: underline;
             }
