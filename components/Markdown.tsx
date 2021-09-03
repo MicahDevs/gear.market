@@ -18,7 +18,7 @@ export default function MarkdownWrapper({
         css`
           width: 100%;
           * {
-            color: var(--black);
+            color: var(--white);
           }
           h2,
           h3,
@@ -61,7 +61,7 @@ export default function MarkdownWrapper({
             line-height: 1.45;
             border-radius: 5px;
             background-color: var(--bg-color);
-            color: var(--black) !important;
+            color: var(--white) !important;
             overflow-x: scroll;
             position: relative;
           }
