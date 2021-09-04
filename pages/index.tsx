@@ -15,6 +15,15 @@ export default function Home({ tokens }: { tokens: any }) {
   return (
     <IndexWrapper>
       <Head />
+      <style>
+      body {
+        background-image: url('iu.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+	background-size: cover;
+      }
+    </style>
       <h1>{process.env.NEXT_PUBLIC_APP_TITLE}</h1>
       <AuctionsList tokens={tokens} />
     </IndexWrapper>
